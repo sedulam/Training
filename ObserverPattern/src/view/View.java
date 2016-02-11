@@ -11,8 +11,9 @@ public class View
 	private Listener listener;
 	
 	@Inject
-	public void setListener(Listener listener)
+	public View(Listener listener)
 	{
+		super();
 		this.listener = listener;
 	}
 

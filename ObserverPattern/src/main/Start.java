@@ -1,14 +1,16 @@
 package main;
 
-import controller.Controller;
+import com.google.inject.Guice;
+import com.google.inject.Injector;
+
 import view.View;
 
 public class Start
 {
 	public static void main(String[] args)
 	{
-		View view = new View();
-		new Controller(view);
+		Injector injector = Guice.createInjector(new ViewModule());
+		View view = injector.getInstance(View.class);
 		view.startConsole();
 	}
 }
