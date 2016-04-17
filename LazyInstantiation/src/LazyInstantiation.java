@@ -5,12 +5,12 @@ public class LazyInstantiation
 	
 	private LazyInstantiation()
 	{
-		System.out.println("Singleton lazily created.");
+		System.out.println("Singleton lazily created."); //$NON-NLS-1$
 	}
 	
 	public static void doNothing()
 	{
-		System.out.println("Useless method (lazy instantiation)");
+		System.out.println("Useless method (lazy instantiation)"); //$NON-NLS-1$
 	}
 	
 	public static synchronized LazyInstantiation getInstance()

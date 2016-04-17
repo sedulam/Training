@@ -13,7 +13,7 @@ public class RunM2 implements Runnable
 	@Override
 	public void run()
 	{
-		monitor.m2();
+		this.monitor.m2();
 	}
 
 }

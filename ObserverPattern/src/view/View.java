@@ -19,8 +19,8 @@ public class View
 
 	public void startConsole()
 	{
-		String input = "";
-		while (input != "exit")
+		String input = ""; //$NON-NLS-1$
+		while (input != "exit") //$NON-NLS-1$
 		{
 			BufferedReader br = new BufferedReader(
 					new InputStreamReader(System.in));
@@ -32,7 +32,7 @@ public class View
 			{
 				e.printStackTrace();
 			}
-			listener.listenerNotification(input);
+			this.listener.listenerNotification(input);
 		}
 	}
 }

@@ -4,9 +4,9 @@ public class SecondLock implements Runnable
 {
 	public static synchronized void secondMethod()
 	{
-		System.out.println("Second synchronized method started");
+		System.out.println("Second synchronized method started"); //$NON-NLS-1$
 		FirstLock.firstMethod();
-		System.out.println("The FirstLock.firstMethod() invocation from the SecondLock finished!");
+		System.out.println("The FirstLock.firstMethod() invocation from the SecondLock finished!"); //$NON-NLS-1$
 	}
 
 	@Override

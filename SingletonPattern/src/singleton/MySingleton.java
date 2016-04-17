@@ -6,6 +6,7 @@ public class MySingleton
 	
 	private MySingleton(){}
 	
+	@SuppressWarnings("static-method")
 	public MySingleton getInstance()
 	{
 		if (instance == null)

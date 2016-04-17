@@ -12,11 +12,12 @@ public class BillingService {
         this.transactionLog = transactionLog;
     }
 
+    @SuppressWarnings({ "static-method", "unused" })
     public Receipt chargeOrder(PizzaOrder order, CreditCard creditCard) {
         throw new UnsupportedOperationException();
     }
 
     public String toString(){
-        return "CCP " + processor + "\n" + "Trans " + transactionLog;
+        return "CCP " + this.processor + "\n" + "Trans " + this.transactionLog; //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
     }
 }

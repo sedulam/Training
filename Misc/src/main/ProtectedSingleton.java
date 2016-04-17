@@ -9,7 +9,7 @@ public final class ProtectedSingleton
 	{
 		if (instance != null)
 			throw new IllegalStateException(
-					"Singleton instance already created.");
+					"Singleton instance already created."); //$NON-NLS-1$
 	}
 
 	public static ProtectedSingleton getInstance()
@@ -20,7 +20,7 @@ public final class ProtectedSingleton
 			{
 				if (instance == null)
 				{
-					System.out.println("Creating singleton...");
+					System.out.println("Creating singleton..."); //$NON-NLS-1$
 					instance = new ProtectedSingleton();
 				}
 			}

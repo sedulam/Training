@@ -6,17 +6,17 @@ public class MyMonitor
 	
 	public synchronized void m1()
 	{
-		for (int i = 0; i < max; i++)
+		for (int i = 0; i < this.max; i++)
 		{
-			System.out.println("m1 is running: Execution nmr: " + i);
+			System.out.println("m1 is running: Execution nmr: " + i); //$NON-NLS-1$
 		}
 	}
 
 	public synchronized void m2()
 	{
-		for (int i = 0; i < max; i++)
+		for (int i = 0; i < this.max; i++)
 		{
-			System.out.println("m2 is running: Execution nmr: " + i);
+			System.out.println("m2 is running: Execution nmr: " + i); //$NON-NLS-1$
 		}
 	}
 }
