@@ -12,7 +12,7 @@ public class BillingService {
         this.transactionLog = transactionLog;
     }
 
-    @SuppressWarnings({ "static-method", "unused" })
+    @SuppressWarnings({ "static-method" })
     public Receipt chargeOrder(PizzaOrder order, CreditCard creditCard) {
         throw new UnsupportedOperationException();
     }
