@@ -1,7 +1,0 @@
-
-
-package sdp
-
-class AbstractFactory {
-  
-}
