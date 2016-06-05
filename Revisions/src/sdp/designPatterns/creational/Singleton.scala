@@ -1,4 +1,4 @@
-package sdp.designPatterns
+package sdp.designPatterns.creational
 
 object Singleton extends App {
   

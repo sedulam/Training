@@ -1,6 +1,6 @@
 
 
-package sdp.designPatterns
+package sdp.designPatterns.creational
 
 object AbstractFactory extends App {
 
