@@ -1,8 +1,1 @@
-.metadata/
-.recommenders/
-RemoteSystemsTempFiles/
-bin/
-target/
-*.cache-main
-*.cache-tests
-.settings/
+.idea/workspace.xml

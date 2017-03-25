@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/AdapterPattern/AdapterPattern.iml" filepath="$PROJECT_DIR$/src/AdapterPattern/AdapterPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Deadlock/Deadlock.iml" filepath="$PROJECT_DIR$/src/Deadlock/Deadlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Guice/Guice.iml" filepath="$PROJECT_DIR$/src/Guice/Guice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/LazyInstantiation/LazyInstantiation.iml" filepath="$PROJECT_DIR$/src/LazyInstantiation/LazyInstantiation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Monitors/Monitors.iml" filepath="$PROJECT_DIR$/src/Monitors/Monitors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ObserverPattern/ObserverPattern.iml" filepath="$PROJECT_DIR$/src/ObserverPattern/ObserverPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/SingletonPattern/SingletonPattern.iml" filepath="$PROJECT_DIR$/src/SingletonPattern/SingletonPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StrategyPattern/StrategyPattern.iml" filepath="$PROJECT_DIR$/StrategyPattern/StrategyPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Training.iml" filepath="$PROJECT_DIR$/Training.iml" />
+    </modules>
+  </component>
+</project>
