@@ -1,0 +1,3 @@
+interface IFly {
+    void fly();
+}
