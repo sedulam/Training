@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Deadlock/Deadlock.iml" filepath="$PROJECT_DIR$/DesignPatterns/Deadlock/Deadlock.iml" group="DesignPatterns" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Monitors/Monitors.iml" filepath="$PROJECT_DIR$/DesignPatterns/Monitors/Monitors.iml" group="DesignPatterns" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/StrategyPattern/StrategyPattern.iml" filepath="$PROJECT_DIR$/DesignPatterns/StrategyPattern/StrategyPattern.iml" group="DesignPatterns" />
+      <module fileurl="file://$PROJECT_DIR$/Temp/Temp.iml" filepath="$PROJECT_DIR$/Temp/Temp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Training.iml" filepath="$PROJECT_DIR$/Training.iml" />
     </modules>
   </component>
